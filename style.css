@@ -25,14 +25,18 @@
 
 h1
 {
-    font-size: 1.4em;
+    font-size: 1.3em;
     font-weight: bold;
+    line-height: 0%;
+    margin-top: 1%;
 }
 
 h2
 {
     font-size: 1.2em;
     font-weight: bold;
+    line-height: 0%;
+    margin-top: 1%;
 }
 
 h3
@@ -52,11 +56,15 @@ a
     color: black;
 }
 
+a:hover
+{
+    color: #0065FC;
+}
+
 #blocpage
 {
     background-color: tomato;
     padding-top : 50px;
-    /*height: 1885px;  à revoir*/
     margin-left: 3.5%;
     margin-right: 3.5%;
 }
@@ -68,33 +76,62 @@ a
     background-color: rgb(241, 241, 138);
 }
 
-#blockHebergements
-{
-    background-color: rgb(247, 150, 133);
-    height: 626px;
-    display: flex;
-}
-
-#blockActivites
-{
-    background-color: rgb(248, 160, 175);
-    height: 616px;
-    padding-top: 65px;
-}
-
-footer
-{
-    background-color: #f2f2f2;
-    height: 218px;
-    display: flex;
-}
-
 #entete
 {
     background-color: rgb(117, 245, 245);
     height: 62.5px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+
+
+header
+{
+    border: 2px solid black;
+    width: 7%;
+    height: 44px;
+    display: flex;
+}
+
+nav
+{
+    background-color: rgb(91, 238, 91);
+    height: 62.5px;
+    width: 35%;
+    display: flex;    
+}
+
+
+ul
+{
+    
+    width: 100%;
+    height: 100%;
+    background-color: pink;
+    list-style-type: none;
+    padding-left: 0%;
+    display: flex;
+    text-align: center;
+    margin-top:0px;
+    line-height : 62.5px;
+}
+
+#hebergements
+{
+    border: 2px solid black;
+    width: 42.8%;
+}
+
+#hebergements:hover
+{
+    border-top:2px solid #0065FC;
+}
+
+#activites, #s_inscrire
+{
+    border: 2px solid black;
+    width: 28.6%;
 }
 
 #recherche
@@ -102,34 +139,177 @@ footer
     background-color: rgb(233, 112, 227);
     height: 126px;
     margin-top: 30px;
+}
+
+#trouvez
+{
+    border: 2px solid black;
+    height: 63px;
+}
+
+#champrecherche
+{
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    margin-top: 0.5%;
+    width: 31%;
+    height: 51px;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+#positionicon
+{
+    width: 12%;
+}
+
+#searchcity
+{
+    width: 56%;
+}
+
+#citysearch 
+{
+    width: 100%;
+    padding-left: 10%;
+    height: 50px;
+    border: none;
+    font-size: 1em; 
+}
+
+#rechercher
+{
+    width: 150%;
+    height: 51px;
+    background-color: #0065FC;
+    border: none;
+    border-radius: 0px 15px 15px 0px;
+    color: white;
+    text-align: center;
+    font-size: 1em;   
+}
+
+#iconposition
+{
+    padding-left: 37.5%;
+    padding-top: 37.5%;
 }
 
 #filtres
 {
     background-color: rgb(141, 233, 141);
     height: 156px;
+    display: flex;
+    flex-direction: column;
 }
 
-header
+
+#blockfiltres
 {
-    background-color: pink;
-    height: 62.5px;
-    width: 50%;
+    border: 2px solid black;
+    width: 68%;
+    height: 78px;
+    justify-content: space-between;
+    align-items: center;
     display: flex;
+}
+
+#economique, #familial, #romantique, #animaux
+{
+    border: 2px solid #d9d9d9;
+    border-radius: 50px;
+    border-left: none;
+    height: 50px;
+    display: flex;
+}
+
+#economique
+{
+    width: 21%;
+}
+
+#familial
+{
+    width: 16.6%;
+}
+
+#romantique
+{
+    width: 20%;
+}
+
+#animaux
+{
+    width: 26%;
+}
+
+.rond
+{
+    height: 50px;
+    border-radius: 25px;
+    background-color: #DEEBFF;
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-nav
+#rond1
 {
-    background-color: rgb(91, 238, 91);
-    height: 62.5px;
-    width:35%;
+    width: 29%;  
+}
+
+#rond2
+{
+    width: 37%;
+}
+
+#rond3
+{
+    width: 30%;
+}
+
+#rond4
+{
+    width: 23%;
+}
+
+#child, #heart, #dog
+{
+    font-size: 1.2em;
+}
+
+#economique p, #familial p, #romantique p, #animaux p
+{
+    padding-left: 5%; 
+}
+
+
+#plus
+{
+    border: 1px solid black;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
+    width: 35%; 
+    height: 78px;
+    justify-content: space-between;
+}
+
+#info
+{
+    width: 5.7%;
+    height: 33.5%;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 11px;
+  
+}
+
+#blockHebergements
+{
+    background-color: rgb(247, 150, 133);
+    height: 626px;
+    display: flex;
 }
 
 #marseille
@@ -140,63 +320,50 @@ width: 66%;
 height: 626px;
 }
 
-#populaires
-{
-background-color: #f2f2f2;
-border-radius: 3%;
-width: 31%;
-height: 626px;
-margin-left: 3%;
-}
-
 #blockMarseille
 {
     border:2px solid black;
     width: 91%;
     margin-left: 4.5%;
-    margin-bottom: 107px;
-    margin-top:50px;
-    display:flex;
+    margin-top: 4%;
+    display: flex;
     flex-direction: column;
 }
 
-
 #titreMarseille
 {
-   
-    padding-bottom : 10px;
-
+   padding-bottom : 10px;
 }
+
 #blockimages
 {
+    margin-top: 2%;
     border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    height:428px;
-    width: 100%;
+    height:428px; 
 }
 
 #afficher
 {
-    padding-top: 30px;
+    padding-top: 3%;
 }
 
 .imageblock
 {
+    display: flex;
+    flex-direction: column;
     background-color: white;
     width: 31%;
     height: 199px;
-    display: flex;
-    flex-direction: column;
     border-radius: 6%;
     box-shadow: 2px 2px 8px grey;
-
 }
 
 .row2 
 {
-    margin-bottom : -25px!important;
+    margin-bottom : -4%;
 }
 
 .blockphoto
@@ -209,12 +376,9 @@ margin-left: 3%;
     border-radius: 6% 6% 0% 0%;
 }
 
-
-
 .imageblock img 
 {
-    width : 100%;
-  
+    width : 100%; 
 }
 
 .description
@@ -226,12 +390,21 @@ margin-left: 3%;
     padding-top: 2%;
 }
 
+#populaires
+{
+background-color: #f2f2f2;
+border-radius: 3%;
+width: 31%;
+height: 626px;
+margin-left: 3%;
+}
+
 #blockpopulaires
 {
     border:2px solid black;
     width: 81.7%; 
     margin-left: 8.8%;
-    margin-top: 60px;   
+    margin-top: 12%;   
 }
 
 #entetepopulaires
@@ -242,25 +415,23 @@ margin-left: 3%;
 
 #chart
 {
-    font-size: 1.4em;
-    align-self:center;
+    font-size: 1.4em;  
 }
 
 
 #blockimages2
 {
+    margin-top: 5%;
     border:2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 499px;
-    width: 100%;
+    height: 499px; 
 }
 
 .imageblock2
 {
     background-color: white;
-    width: 100%;
     height: 144px;
     border-radius: 4%;
     display: flex;
@@ -269,8 +440,7 @@ margin-left: 3%;
 
 .imageblock2 img
 {
-    width: 160%;
-   
+    width: 160%; 
 }
 
 .blockphoto2
@@ -288,7 +458,17 @@ margin-left: 3%;
 {
     border: 2px solid black;
     width: 50%;
-    margin-left: 5%;   
+    margin-left: 4%; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between;
+}
+
+#blockActivites
+{
+    background-color: rgb(248, 160, 175);
+    height: 616px;
+    padding-top: 65px;
 }
 
 #blockimages3
@@ -319,7 +499,6 @@ margin-left: 3%;
     border: 2px solid black;
     border-radius: 3%;
     height: 237px;
-    width: 100%; 
     box-shadow: 2px 2px 8px grey;
 }
 
@@ -328,7 +507,6 @@ margin-left: 3%;
     border: 2px solid black;
     border-radius: 3%;
     height: 164px;
-    width: 100%;
     box-shadow: 2px 2px 8px grey;
 }
 
@@ -337,14 +515,12 @@ margin-left: 3%;
     border: 2px solid black;
     border-radius: 3% 3% 0% 0%;
     height: 390px;
-    width: 100%;
     overflow: hidden;
 }
 
 .description3
 {
    padding-left: 6%;
-   /*Centrer en hauteur*/
 }
 
 .blockphoto4
@@ -352,14 +528,7 @@ margin-left: 3%;
     border: 2px solid black;
     border-radius: 3% 3% 0% 0%;
     height: 181px;
-    width: 100%;
     overflow: hidden;
-}
-
-.description4
-{
-padding-top: 5%;
-padding-left: 6%;
 }
 
 .blockphoto5
@@ -367,9 +536,17 @@ padding-left: 6%;
     border: 2px solid black;
     border-radius: 3% 3% 0% 0%;
     height: 109px;
-    width: 100%;
     overflow: hidden;
 }
+
+
+footer
+{
+    background-color: #f2f2f2;
+    height: 218px;
+    display: flex;
+}
+
 
 #blockfooter
 {
@@ -388,7 +565,7 @@ padding-left: 6%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-   
+    margin: 0%;
 }
 
 .footerblock
@@ -401,222 +578,9 @@ padding-left: 6%;
     height: 90px;
 }
 
-ul
-{
-    border:2px solid black;
-    display: flex;
-    list-style-type: none;
-    width: 100%;
-    padding-left: 0%;
-}
-
-li
-{
-    text-align: center;
-}
-
-#hebergements
-{
-    border: 2px solid black;
-    width: 42.8%;
-}
-
-#activites, #s_inscrire
-{
-    border: 2px solid black;
-    width: 28.6%;
-}
-
-#blocklogo
-{
-    border: 2px solid black;
-    width: 14%;
-    height: 44px;
-    display: flex;
-}
-
-#trouvez
-{
-    border: 2px solid black;
-    height: 63px;
-}
-
-#champrecherche
-{
-    display: flex;
-    width: 31%;
-    height: 51px;
-    background-color: #f2f2f2;
-    border-radius: 15px;
-}
-
-#positionicon
-{
-    width: 12%;
-}
-
-#searchcity
-{
-    width: 56%;
-    background-color: chartreuse;
-}
-input {
-    width: 100%;
-    padding-left: 10%;
-  }
-
-#rechercher
-{
-    width: 137%;
-    height: 51px;
-    background-color: #0065FC;
-    border: none;
-    border-radius: 0px 15px 15px 0px;
-    color: white;
-    text-align: center;
-    padding-top : 5%;
-}
-
-#citysearch
-{
-    height: 50px;
-    border: none;
-}
-
-#iconposition
-{
-    padding-left: 37.5%;
-    padding-top: 37.5%;
-}
-
-#blockfiltres, #plus
-{
-    border: 2px solid black;
-    width: 68%;
-    height: 78px;
-    justify-content: space-between;
-    align-items: center;
-}
-
-#blockfiltres
-{
-    display: flex;
-}
-
-
-#plus
-{
-    padding-top: 12px;
-    padding-right: 10%;
-    margin-left: 2%;
-}
-
-#economique, #familial, #romantique, #animaux
-{
-    border: 2px solid #d9d9d9;
-    border-radius: 50px;
-    border-left: none;
-    height: 50px;
-    display: flex;
-}
-
-#filtresW
-{
-    border: 2px solid black;
-    display: flex;
-    width: 7%;
-    padding-top: 12px;   
-}
-
-#economique
-{
-    width: 21%;
-}
-
-#familial
-{
-    width: 16.6%;
-}
-
-#romantique
-{
-    width: 20%;
-}
-
-#animaux
-{
-    width: 26%;
-}
-
-#economique p, #familial p, #romantique p, #animaux p
-{
-    display: flex;
-    padding-top: 12px;
-    padding-left: 5%;
-   
-}
-
-.rond
-{
-    height: 50px;
-    border-radius: 25px;
-    background-color: #DEEBFF;
-    position:relative;
-    display: flex;
-}
-
-#rond1
-{
-    width: 29%;  
-}
-
-#rond2
-{
-    width: 37%;
-}
-
-#rond3
-{
-    width: 30%;
-}
-
-#rond4
-{
-    width: 23%;
-}
-
-#child, #heart, #dog
-{
-    font-size: 1.2em;
-}
-
-#bill
-{
-    padding-left: 28%;
-    padding-top: 30%;
-}
-
-#child
-{
-    padding-left: 33%;
-    padding-top: 30%;
-}
-
-#heart
-{
-    padding-left: 30%;
-    padding-top: 30%;
-}
-
-#dog
-{
-    padding-left: 30%;
-    padding-top: 28%;
-}
-
 .footerLinks
 {
-    padding-bottom: 50%;
+ padding-bottom: 2%;   
 }
 
 #hdpPic, #hlmPic
@@ -642,6 +606,7 @@ input {
     position: relative;
     right: 30%;
 }
+
 
 
 

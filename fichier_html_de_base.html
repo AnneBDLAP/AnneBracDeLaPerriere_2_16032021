@@ -2,7 +2,6 @@
 <html>
     <head>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="bootstrap.min.css"/>
         <link rel="stylesheet" href= "style.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
@@ -28,13 +27,11 @@
             <section id="toppage">
                 <section id="entete">
                     <header>
-                        <div id="blocklogo">
-                            <img src="images/logo/logo.png" alt="Logo de Reservia"/>
-                        </div>
+                        <img src="images/logo/logo.png" alt="Logo de Reservia"/>
                     </header>
                     <nav>
                         <ul>
-                            <li id="hebergements"><a href="#blockHebergements" class="blue"> <!--black?--> Hébergements</a></li>
+                            <li id="hebergements"><a href="#blockHebergements">Hébergements</a></li>
                             <li id="activites"><a href="#blockActivites">Activités</a></li>
                             <li id="s_inscrire"><a href="" class="blue bold">S'inscrire</a></li>
                         </ul>
@@ -43,11 +40,11 @@
                 <section id="recherche">
                     <div id="trouvez">
                         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                                        En plein centre de ville ou en pleine nature
+                        <p>En plein centre de ville ou en pleine nature</p>
                     </div>
                     <div id="champrecherche">
                         <div id="positionicon"><i class="fas fa-map-marker-alt" id="iconposition"></i></div>
-                        <div id="searchcity"><input type="search" name="searchcity" value="Marseille, France" id="citysearch" class="bold"/></div>
+                        <div id="searchcity"><input type="search" name="searchcity" value="Marseille, France" class="bold" id="citysearch"/></div>
                         <div ><input type="submit" value="Rechercher" id="rechercher" class="bold"/></div>
                     </div>
                 </section>
@@ -66,11 +63,15 @@
                             <div id="rond3" class="rond"><i class="fas fa-heart filtreicon blue" id="heart"></i></div>
                             <p class="bold"><a href="marseilleRomantique.html">Romantique</a></p>
                         </div>
-                        <div id="animaux"><div id="rond4" class="rond"><i class="fas fa-dog filtreicon blue" id="dog"></i></div>
-                        <p class="bold"><a href="marseilleAnimaux.html">Animaux autorisés</a></p>
+                        <div id="animaux">
+                            <div id="rond4" class="rond"><i class="fas fa-dog filtreicon blue" id="dog"></i></div>
+                            <p class="bold"><a href="marseilleAnimaux.html">Animaux autorisés</a></p>
                         </div>
                     </div>
-                    <div id="plus">Plus de 500 logements sont disponibles dans cette villle</div>
+                    <div id="plus">
+                        <p id="info"><i class="fas fa-info blue"></i></p>
+                        <p>Plus de 500 logements sont disponibles dans cette villle</p>
+                    </div>
                 </section>
             </section>
             <section id="blockHebergements">
@@ -174,10 +175,14 @@
                                     </a>
                                 </div>
                                 <div class="description2">
-                                    <strong>Hôtel Le soleil du matin</strong><br/>
-                                    Nuit à partir de 128<em>€</em><br/><br/>
-                                    <i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i>
-                                    <i class="fas fa-star blue"></i><i class="fas fa-star blue"></i>
+                                    <p>
+                                        <strong>Hôtel Le soleil du matin</strong></br>
+                                        Nuit à partir de 128<em>€</em>
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i>
+                                        <i class="fas fa-star blue"></i><i class="fas fa-star blue"></i>
+                                    </p>
                                 </div>
                             </div>
                             <div class="imageblock2">
@@ -187,10 +192,14 @@
                                     </a>
                                 </div>
                                 <div class="description2">
-                                    <strong>Au cœur de l'eau Chambres d'hôtes</strong><br/>
-                                    Nuit à partir de 71<em>€</em><br/><br/>
-                                    <i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i>
-                                    <i class="fas fa-star blue"></i><i class="fas fa-star grey"></i>
+                                    <p>
+                                        <strong>Au cœur de l'eau Chambres d'hôtes</strong><br/>
+                                        Nuit à partir de 71<em>€</em>
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i>
+                                        <i class="fas fa-star blue"></i><i class="fas fa-star grey"></i>
+                                    </p>
                                 </div>
                             </div>
                             <div class="imageblock2">
@@ -200,10 +209,14 @@
                                     </a>
                                 </div>
                                 <div class="description2">
-                                    <strong>Hôtel Tout bleu et Blanc</strong><br/>
-                                    Nuit à partir de 68<em>€</em><br/><br/>
-                                    <i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i>
-                                    <i class="fas fa-star blue"></i><i class="fas fa-star grey"></i>
+                                    <p>
+                                        <strong>Hôtel Tout bleu et Blanc</strong><br/>
+                                         Nuit à partir de 68<em>€</em>
+                                    </p>
+                                    <p>
+                                        <i class="fas fa-star blue"></i><i class="fas fa-star blue"></i><i class="fas fa-star blue"></i>
+                                        <i class="fas fa-star blue"></i><i class="fas fa-star grey"></i>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -228,7 +241,7 @@
                                     <img src="images/activites/4_small/fortDePomegues.jpg" alt="Photo du Fort de Pomègues" id="fdpPic"/>
                                 </a>
                             </div>
-                            <h3 class="description4">Fort de Pomègues</h3>
+                            <h3 class="description3">Fort de Pomègues</h3>
                         </div>
                         <div class="imageblock5">
                             <div class="blockphoto5">
@@ -236,7 +249,7 @@
                                     <img src="images/activites/4_small/ilesDuFrioul.jpg" alt="Photo de l'Îles du Frioul" id="idfPic"/>
                                 </a>
                             </div>
-                            <h3 class="description4">Îles du Frioul</h3>
+                            <h3 class="description3">Îles du Frioul</h3>
                         </div>
                     </div>
                     <div class="imageblock3">
@@ -254,7 +267,7 @@
                                     <img src="images/activites/4_small/notreDameDeLaGarde.jpg" alt="Photo de Notre-Dame-de-la-Garde" id="nddlgPic"/>
                                 </a>
                             </div>
-                            <h3 class="description4">Notre-Dame-de-la-Garde</h3>
+                            <h3 class="description3">Notre-Dame-de-la-Garde</h3>
                         </div>
                         <div class="imageblock5">
                             <div class="blockphoto5">
@@ -262,7 +275,7 @@
                                     <img src="images/activites/4_small/ParcLongchamp.jpg" alt="Photo du Parc Longchamp" id="plPic"/>
                                 </a>
                             </div>
-                            <h3 class="description4">Parc Longchamp</h3>
+                            <h3 class="description3">Parc Longchamp</h3>
                         </div>
                     </div>
                 </div>
