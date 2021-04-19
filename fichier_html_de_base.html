@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8"/>
+        <meta charset="utf-8" name="viewport" content="width=device-width"/>
         <link rel="stylesheet" href= "style.css"/>
+        <link rel="stylesheet" href= "responsive.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/544f91dd44.js" crossorigin="anonymous"></script>
@@ -31,9 +32,9 @@
                     </header>
                     <nav>
                         <ul>
-                            <li id="hebergements"><a href="#blockHebergements">Hébergements</a></li>
-                            <li id="activites"><a href="#blockActivites">Activités</a></li>
-                            <li id="s_inscrire"><a href="" class="blue bold">S'inscrire</a></li>
+                            <li id="hebergements" class="menu"><a href="#blockHebergements">Hébergements</a></li>
+                            <li id="activites" class="menu"><a href="#blockActivites">Activités</a></li>
+                            <li id="s_inscrire" class="menu"><a href="" class="blue bold">S'inscrire</a></li>
                         </ul>
                     </nav>
                 </section>
@@ -45,7 +46,7 @@
                     <div id="champrecherche">
                         <div id="positionicon"><i class="fas fa-map-marker-alt" id="iconposition"></i></div>
                         <div id="searchcity"><input type="search" name="searchcity" value="Marseille, France" class="bold" id="citysearch"/></div>
-                        <div ><input type="submit" value="Rechercher" id="rechercher" class="bold"/></div>
+                        <div ><input type="submit" id="rechercher" class="bold"/></div>
                     </div>
                 </section>
                 <section id="filtres">
@@ -75,7 +76,7 @@
                 </section>
             </section>
             <section id="blockHebergements">
-                <section id="marseille">
+                <section id="marseille" class="blocPrincipal">
                     <div id="blockMarseille">
                         <h1 id="titreMarseille">Hébergements à Marseille</h1>
                         <div id="blockimages">
@@ -161,7 +162,7 @@
                         <p class="bold" id="afficher">Afficher plus</p>
                     </div>
                 </section>
-                <section id="populaires">
+                <section id="populaires" class="blocPrincipal">
                     <div id="blockpopulaires">
                         <div id ="entetepopulaires">
                             <h1 id="titrepopulaires">Les plus populaires</h1>
@@ -234,7 +235,7 @@
                         </div>
                         <h3 class="description3">Vieux Port</h3>
                     </div>
-                    <div class="imageblock3">
+                    <div class="imageblock3 fois2">
                         <div class="imageblock4">
                             <div class="blockphoto4">
                                 <a href="fortDePomegues.html">
