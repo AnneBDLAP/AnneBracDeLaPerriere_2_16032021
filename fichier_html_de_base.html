@@ -3,7 +3,8 @@
     <head>
         <meta charset="utf-8" name="viewport" content="width=device-width"/>
         <link rel="stylesheet" href= "style.css"/>
-        <link rel="stylesheet" href= "responsive.css"/>
+        <link rel="stylesheet" href= "responsiveMobile.css"/>
+        <link rel="stylesheet" href= "responsiveTablette.css"/>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/544f91dd44.js" crossorigin="anonymous"></script>
@@ -34,7 +35,7 @@
                         <ul>
                             <li id="hebergements" class="menu"><a href="#blockHebergements">Hébergements</a></li>
                             <li id="activites" class="menu"><a href="#blockActivites">Activités</a></li>
-                            <li id="s_inscrire" class="menu"><a href="" class="blue bold">S'inscrire</a></li>
+                            <li id="s_inscrire" class="menu"><a href="s_inscrire.html" class="blue bold">S'inscrire</a></li>
                         </ul>
                     </nav>
                 </section>
@@ -46,25 +47,25 @@
                     <div id="champrecherche">
                         <div id="positionicon"><i class="fas fa-map-marker-alt" id="iconposition"></i></div>
                         <div id="searchcity"><input type="search" name="searchcity" value="Marseille, France" class="bold" id="citysearch"/></div>
-                        <div ><input type="submit" id="rechercher" class="bold"/></div>
+                        <button type="submit" class="loupe bold" id="rechercher"></button>
                     </div>
                 </section>
                 <section id="filtres">
                     <div id="blockfiltres">
-                        <div id="filtresW"><p class="bold">Filtres</p></div>
-                        <div id="economique">
+                        <p class="bold onglets" id="filtresW">Filtres</p>
+                        <div class="onglets" id="economique">
                             <div id="rond1" class="rond"><i class="fas fa-money-bill-wave filtreicon blue" id="bill"></i></div>
                             <p class="bold"><a href="marseilleEconomique.html">Économique</a></p>
                         </div>
-                        <div id="familial">
+                        <div class="onglets" id="familial">
                             <div id="rond2" class="rond"><i class="fas fa-child filtreicon blue" id="child"></i></div>
                             <p class="bold"><a href="marseilleFamilial.html">Familial</a></p>
                         </div>
-                        <div id="romantique">
+                        <div class="onglets" id="romantique">
                             <div id="rond3" class="rond"><i class="fas fa-heart filtreicon blue" id="heart"></i></div>
                             <p class="bold"><a href="marseilleRomantique.html">Romantique</a></p>
                         </div>
-                        <div id="animaux">
+                        <div class="onglets" id="animaux">
                             <div id="rond4" class="rond"><i class="fas fa-dog filtreicon blue" id="dog"></i></div>
                             <p class="bold"><a href="marseilleAnimaux.html">Animaux autorisés</a></p>
                         </div>
@@ -135,7 +136,7 @@
                             <div class="imageblock row2">
                                 <div class="blockphoto">
                                     <a href="Auberge_Le_Panier.html">
-                                        <img src="images/hebergements/4_small/AubergeLePanier.jpg" alt="Photo de l'Auberge Le Panier" id="AubergeLePanier"/>
+                                        <img src="images/hebergements/4_small/AubergeLePanier.jpg" alt="Photo de l'Auberge Le Panier" id="alpPic"/>
                                     </a>
                                 </div>
                                 <div class="description">
@@ -230,12 +231,12 @@
                     <div class="imageblock3">
                         <div class="blockphoto3">
                             <a href="vieuxPort.html">
-                                <img src="images/activites/4_small/vieuxPort.jpg" alt="Photo du Vieux Port"/>
+                                <img src="images/activites/4_small/vieuxPort.jpg" alt="Photo du Vieux Port" id="vpPic"/>
                             </a>
                         </div>
                         <h3 class="description3">Vieux Port</h3>
                     </div>
-                    <div class="imageblock3 fois2">
+                    <div class="imageblock3Bis">
                         <div class="imageblock4">
                             <div class="blockphoto4">
                                 <a href="fortDePomegues.html">
@@ -256,12 +257,12 @@
                     <div class="imageblock3">
                         <div class="blockphoto3">
                             <a href="parcNationnalDesCalanques.html">
-                                <img src="images/activites/4_small/parcNationalDesCalanques.jpg" alt="Photo du Parc National des Calanques"/>
+                                <img src="images/activites/4_small/parcNationalDesCalanques.jpg" alt="Photo du Parc National des Calanques" id="pncPic"/>
                             </a>
                         </div>
                         <h3 class="description3">Parc National des Calanques</h3>    
                     </div>
-                    <div class="imageblock3">
+                    <div class="imageblock3Bis">
                         <div class="imageblock4">
                             <div class="blockphoto4">
                                 <a href="notreDameDeLaGarde.html">
