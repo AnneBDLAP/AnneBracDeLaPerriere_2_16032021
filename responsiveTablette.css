@@ -1,4 +1,4 @@
-@media all and (max-device-width: 991px)
+@media all and (min-device-width: 767px) and (max-device-width: 991px)
 {
     #toppage
     {
