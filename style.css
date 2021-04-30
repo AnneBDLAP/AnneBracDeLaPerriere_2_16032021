@@ -63,7 +63,6 @@ a:hover
 
 #blocpage
 {
-    background-color: tomato;
     padding-top : 50px;
     margin-left: 3.5%;
     margin-right: 3.5%;
@@ -73,12 +72,10 @@ a:hover
 #toppage
 {
     height: 375px;
-    background-color: rgb(241, 241, 138);
 }
 
 #entete
 {
-    background-color: rgb(117, 245, 245);
     height: 62.5px;
     display: flex;
     justify-content: space-between;
@@ -87,7 +84,6 @@ a:hover
 
 header
 {
-    background-color: rgb(145, 145, 224);
     height: 62.5px;
     width: 50%;
 }
@@ -99,7 +95,6 @@ header img
 
 nav
 {
-    background-color: rgb(91, 238, 91);
     height: 62.5px;
     width: 35%;
     display: flex;    
@@ -111,7 +106,6 @@ ul
     
     width: 100%;
     height: 100%;
-    background-color: pink;
     list-style-type: none;
     padding-left: 0%;
     display: flex;
@@ -122,7 +116,6 @@ ul
 
 #hebergements
 {
-    border: 2px solid black;
     width: 42.8%;
 }
 
@@ -133,20 +126,17 @@ ul
 
 #activites, #s_inscrire
 {
-    border: 2px solid black;
     width: 28.6%;
 }
 
 #recherche
 {
-    background-color: rgb(233, 112, 227);
     height: 126px;
     margin-top: 30px;
 }
 
 #trouvez
 {
-    border: 2px solid black;
     height: 63px;
 }
 
@@ -168,14 +158,17 @@ ul
 #searchcity
 {
     width: 56%;
+    
 }
 
 #citysearch 
 {
     width: 100%;
     padding-left: 10%;
-    height: 50px;
-    border: none;
+    height: 51px;
+    border: 1px solid #d9d9d9;
+    border-left: none;
+    border-right: none;
     font-size: 1em; 
 }
 
@@ -204,7 +197,6 @@ ul
 
 #filtres
 {
-    background-color: rgb(141, 233, 141);
     height: 156px;
     display: flex;
     flex-direction: column;
@@ -213,7 +205,6 @@ ul
 
 #blockfiltres
 {
-    border: 2px solid black;
     width: 68%;
     height: 78px;
     justify-content: space-between;
@@ -293,7 +284,6 @@ ul
 
 #plus
 {
-    border: 1px solid black;
     display: flex;
     width: 35%; 
     height: 78px;
@@ -315,7 +305,6 @@ ul
 
 #blockHebergements
 {
-    background-color: rgb(247, 150, 133);
     height: 626px;
     display: flex;
 }
@@ -332,7 +321,6 @@ flex-direction: column;
 
 #blockMarseille
 {
-    border:2px solid black;
     width: 91%;
     margin-left: 4.5%;
     margin-top: 4%;
@@ -348,7 +336,6 @@ flex-direction: column;
 #blockimages
 {
     margin-top: 2%;
-    border: 2px solid black;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -357,7 +344,7 @@ flex-direction: column;
 
 #afficher
 {
-    padding-top: 3%;
+    padding-top: 6%;
 }
 
 .imageblock
@@ -393,7 +380,6 @@ flex-direction: column;
 
 .description
 {
-    border: 2px solid black;
     width: 96%;
     height: 85px;
     margin-left: 2%;
@@ -429,7 +415,6 @@ margin-left: 3%;
 
 #blockpopulaires
 {
-    border:2px solid black;
     width: 81.7%; 
     margin-left: 8.8%;
     margin-top: 12%;   
@@ -450,7 +435,6 @@ margin-left: 3%;
 #blockimages2
 {
     margin-top: 5%;
-    border:2px solid black;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -461,7 +445,7 @@ margin-left: 3%;
 {
     background-color: white;
     height: 144px;
-    border-radius: 4%;
+    border-radius: 8%;
     display: flex;
     box-shadow: 2px 2px 8px grey;
 }
@@ -473,7 +457,6 @@ margin-left: 3%;
 
 .blockphoto2
 {
-    border: 2px solid black;
     width: 40%;
     border-radius: 12% 0% 0% 12%;
     overflow: hidden;
@@ -484,7 +467,6 @@ margin-left: 3%;
 
 .description2
 {
-    border: 2px solid black;
     width: 50%;
     margin-left: 4%; 
     display: flex; 
@@ -500,7 +482,6 @@ margin-left: 3%;
 
 #blockActivites
 {
-    background-color: rgb(248, 160, 175);
     height: 616px;
     padding-top: 65px;
     display: flex;
@@ -509,7 +490,6 @@ margin-left: 3%;
 
 #blockimages3
 {
-    border: 2px solid black;
     width: 100%;
     height: 445px;
     margin-top: 28px;
@@ -519,20 +499,22 @@ margin-left: 3%;
 
 .imageblock3, .imageblock3Bis
 {
-    border: 2px solid black;
     border-radius: 3%;
     height: 445px;
     width: 22.5%;
     background-color: white;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;   
+}
+
+.imageblock3
+{
     box-shadow: 2px 2px 8px grey;
 }
 
 .imageblock4
 {
-    border: 2px solid black;
     border-radius: 3%;
     height: 237px;
     box-shadow: 2px 2px 8px grey;
@@ -540,7 +522,6 @@ margin-left: 3%;
 
 .imageblock5
 {
-    border: 2px solid black;
     border-radius: 3%;
     height: 164px;
     box-shadow: 2px 2px 8px grey;
@@ -548,7 +529,6 @@ margin-left: 3%;
 
 .blockphoto3
 {
-    border: 2px solid black;
     border-radius: 3% 3% 0% 0%;
     height: 390px;
     overflow: hidden;
@@ -561,7 +541,6 @@ margin-left: 3%;
 
 .blockphoto4
 {
-    border: 2px solid black;
     border-radius: 3% 3% 0% 0%;
     height: 181px;
     overflow: hidden;
@@ -569,7 +548,6 @@ margin-left: 3%;
 
 .blockphoto5
 {
-    border: 2px solid black;
     border-radius: 3% 3% 0% 0%;
     height: 109px;
     overflow: hidden;
@@ -597,7 +575,6 @@ footer
 
 #blockfooter
 {
-    border: 2px solid black;
     height: 169px;
     width: 95%;
     margin-left: 3.5%;
@@ -607,7 +584,6 @@ footer
 
 .footerblock, .footerblock2
 {
-    border: 2px solid black;
     width: 33.33%;
     display: flex;
     flex-direction: column;
