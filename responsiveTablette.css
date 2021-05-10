@@ -1,12 +1,8 @@
-@media all and (min-width: 768px) and (max-width: 991px) 
+@media all and (min-width: 767px) and (max-width: 1429px) 
 {
     #toppage
     {
         height: 453px;
-    }
-    header img
-    {
-        width :20%;
     }
 
     nav
@@ -38,42 +34,24 @@
 
     #economique, #romantique
     {
-        width: 23%;
+        width: 160px;
     }
 
     #familial
     {
-        width: 18%;
+        width: 140px;
     }
 
     #animaux
     {
-        width: 30%;
+        width: 215px;
     }
 
-    #rond1
-    {
-        width: 30%;  
-    }
-
-    #rond2
-    {
-        width: 42%;
-    }
-
-    #rond3
-    {
-        width: 31%;
-    }
-
-    #rond4
-    {
-        width: 25%;
-    }
 
     #plus
     {
         width: 65%;
+        max-width: 450px;
     }
 
     #blockHebergements
@@ -117,6 +95,11 @@
     .description2 p
     {
         margin: 0px;
+    }
+
+    .description2 h4
+    {
+        margin-top: 5px;
     }
 
 
